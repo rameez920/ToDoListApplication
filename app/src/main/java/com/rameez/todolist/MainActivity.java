@@ -11,7 +11,7 @@ import android.view.MenuItem;
 
 import com.rameez.todolist.dummy.DummyContent;
 
-public class MainActivity extends AppCompatActivity implements DataEntriesFragment.OnListFragmentInteractionListener {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,8 +52,5 @@ public class MainActivity extends AppCompatActivity implements DataEntriesFragme
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    public void onListFragmentInteraction(DummyContent.DummyItem item) {
 
-    }
 }
